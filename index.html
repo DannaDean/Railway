@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Russian Railway</title>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="header-container">
+            <div class="logo">
+                <img src="https://www.russianrailways.com/static/newDesign/carcass/img/logotype.svg" alt="RussianRailways.com">
+            </div>
+            <div class="header-links">
+                <nav id="nav-bar">
+                    <ul class="navbar">
+                        <li class="link">
+                            <a href="#" class="nav-link">Group travel</a>
+                        </li>
+                        <li class="link">
+                            <a href="#" class="nav-link">Trans-Siberian</a>
+                        </li>
+                        <li class="link" id="tick">
+                            <div class="dropdown">
+                                <a href="#" class="nav-link ">Tickets Guide</a>
+                                <div class="arrows-move">
+                                    <span class="left-icon"></span>
+                                <span class="right-icon"></span>
+                                </div>
+                            </div>
+                            <div id="guide-menu">
+                                <a href="#">Russian Train tickets-Booking tips</a>
+                                <a href="#">Russian Train types</a>
+                                <a href="#">Seat types</a>
+                                <a href="#">Child policy</a>
+                                <a href="#">Change ticket request</a>
+                                <a href="#">Cancel Tickets</a>
+                            </div>
+                        </li>
+                        <li class="link">
+                            <a href="#" class="nav-link">Contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="converter">
+                    <div class="select">
+                        <a href="#" class="money-value"><span class="selected">GBP</span ></a>
+                        <div class="select-arrows">
+                            <span class="select-left-icon"></span>
+                            <span class="select-right-icon"></span>
+                        </div>
+                    </div>
+                    <ul class="lang-menu">
+                        <li>USD</li>
+                        <li>RUB</li>
+                        <li class="nowon">GBP</li>
+                        <li>EUR</li>
+                        <li>CHF</li>
+                    </ul>
+                </div>
+                <div class="user-acc">
+                    <img id="user-img" src="img/userdark.png" alt="user">
+                </div>
+                <div id="new-menu">
+                    <div id="lines">
+                        <div class="line"></div>
+                    </div>
+                    <div id="menu-after-resize">
+                        <ul id="menu-list">
+                            <li>
+                                <a href="#">Group travel</a>
+                            </li>
+                            <li>
+                                <a href="#">Trans-Siberian</a>
+                            </li>
+                            <li class="arr-list">
+                                <a href="#">Tickets Guide</a>
+                                <span><img id="arr-right" src="/img/arrow-right-blue.png" alt=""></span>
+                            </li>
+                            <li>
+                                <a href="#">Contact us</a>
+                            </li>
+                            <li id="add-valute">
+                                <a href="#">GBP</a>
+                                <img id="arr-right" src="/img/arrow-right-blue.png" alt="">
+                            </li>
+                        </ul>
+
+                        <ul id="ticket-list">
+                            <li class="arr-list2">
+                                <img id="arr-left" src="/img/arrow-left-blue.png" alt="">
+                                <a href="#">Tickets Guide</a>
+                            </li>
+                            <li>
+                                <a href="#">Russian Train Tickets-Booking tips</a>
+                            </li>
+                            <li>
+                                <a href="#">Russian train tips</a>
+                            </li>
+                            <li>
+                                <a href="#">Seat tips</a>
+                            </li>
+                            <li>
+                                <a href="#">Child policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Change ticket request</a>
+                            </li>
+                            <li>
+                                <a href="#">Cancel Tickets</a>
+                            </li>
+                        </ul>
+
+                        <ul id="valute-list">
+                            <li>
+                                <a href="#">USD</a>
+                            </li>
+                            <li>
+                                <a href="#">RUB</a>
+                            </li>
+                            <li id="gbp-back">
+                                <img src="/img/arrow-left-blue.png" alt="">
+                                <a href="#">GBP</a>
+                            </li>
+                            <li>
+                                <a href="#">USD</a>
+                            </li>
+                            <li>
+                                <a href="#">USD</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main -->
+
+
+    <!-- Choose Ticket Section -->
+    <main>
+        <section id="buy-pass">
+            <div class="pass-container">
+                <div class="titles-content">
+                    <div class="titles">
+                        <h1>Buy train tikets for Russia</h1>
+                        <h2>The easy way</h2>
+                    </div>
+                    <div class="castle-container">
+                        <img src="https://www.russianrailways.com/static/newDesign/pages/main-page/img/title/img_moscow_small.svg" alt="">
+                    </div>
+                </div>
+                <div class="booking-container">
+                    <div class="radio-buttons">
+                        <label class="first-radio-button">
+                            <input type="radio" name="one-way" value="one-way" id="one-way" checked>
+                            <span >One way</span>
+                        </label>
+                        <label class="second-radio-button">
+                            <input type="radio" name="one-way" value="roundtrip" id="roundtrip">
+                            <span >Roundtrip</span>
+                        </label>
+                    </div>
+                    <div class="inputs-container">
+                        <div class="one-way-form">
+                            <div class="from-to">
+                                <div class="from border">
+                                        <input type="text" value="Type and select the station" id="location-from">
+                                        <label for="location-from">From</label>
+                                        <ul class="from-list">
+                                            <li>Moscow</li>
+                                            <li>St. Petersburg</li>
+                                            <li>Helsinki</li>
+                                            <li>Vladivostok</li>
+                                            <li>Kazan</li>
+                                            <li>Yekaterinburg</li>
+                                            <li>Nizhny Novgorod</li>
+                                            <li>Novosibirsk</li>
+                                            <li>Irkutsk</li>
+                                        </ul>
+                                </div>
+                                <div class="to border">
+                                    <input type="text"  id="destonation-to" value="Type and select the station">
+                                    <label for="destonation-to" class="empty-label">To</label>
+                                    <ul class="to-list">
+                                        <li>Moscow</li>
+                                        <li>St. Petersburg</li>
+                                        <li>Helsinki</li>
+                                        <li>Vladivostok</li>
+                                        <li>Kazan</li>
+                                        <li>Yekaterinburg</li>
+                                        <li>Nizhny Novgorod</li>
+                                        <li>Novosibirsk</li>
+                                        <li>Irkutsk</li>
+                                    </ul>
+                                </div>  
+                                <div class="switch">
+                                    <i class="fa-solid fa-arrow-right-arrow-left" style="color: #1e2103;"></i>
+                                </div>
+                            </div>
+                            <div class="calendar">
+                                <input type="datetime-local" id="date">
+                                <label for="date">Departure date</label>
+                            </div>
+                        </div>
+
+                        <div class="roundtrip-form">
+                            <div class="second-from-to">
+                                <div class="from2  border2">
+                                        <input type="text" value="Type and select the station" id="location-from2">
+                                        <label for="location-from2">From</label>
+                                        <ul class="form-list-2">
+                                            <li>Moscow</li>
+                                            <li>St. Petersburg</li>
+                                            <li>Helsinki</li>
+                                            <li>Vladivostok</li>
+                                            <li>Kazan</li>
+                                            <li>Yekaterinburg</li>
+                                            <li>Nizhny Novgorod</li>
+                                            <li>Novosibirsk</li>
+                                            <li>Irkutsk</li>
+                                        </ul>
+                                </div>
+                                <div class="to2  border2">
+                                    <input type="text"  id="destination-to" value="Type and select the station">
+                                    <label for="destination-to">To</label>
+                                    <ul class="to-list-2">
+                                        <li>Moscow</li>
+                                        <li>St. Petersburg</li>
+                                        <li>Helsinki</li>
+                                        <li>Vlasdvostok</li>
+                                        <li>Kazan</li>
+                                        <li>Yekaterinburg</li>
+                                        <li>Nizhny Novgorod</li>
+                                        <li>Novosibirsk</li>
+                                        <li>Irkutsk</li>
+                                    </ul>
+                                </div>  
+                                <div class="switch-2">
+                                    <i class="fa-solid fa-arrow-right-arrow-left" style="color: #1e2103;"></i>
+                                </div>
+                            </div>
+                            <div class="calendars">
+                                <div class="calendar departure">
+                                    <input type="datetime-local" id="date2">
+                                    <label for="date2">Departure date</label>
+                                </div>
+                                <div class="calendar return">
+                                    <input type="datetime-local" id="date3" value="Select date">
+                                    <label for="date3">Return date</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn search-ticket-btn">
+                        Search tickets
+                        <img src="img/arrow-right-white.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Steps Section -->
+
+        <section id="steps">
+            <div class="steps-container">
+                <div class="steps-title">
+                    <h1>Easy steps to book your tickets</h1>
+                </div>
+                <div class="steps-content">
+                    <div class="step">
+                        <figure>
+                            <img src="https://www.russianrailways.com/static/newDesign/pages/main-page/img/overview/icon_01.svg" alt="">
+                        </figure>
+                        <div class="step-title">
+                            <div class="one-step">
+                                <span>01</span>
+                            <h3>Select a Route</h3>
+                            </div>
+                            <div class="step-text">
+                                <p>Choose your departure and arrival destination. Select dates of travel.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <figure>
+                            <img src="https://www.russianrailways.com/static/newDesign/pages/main-page/img/overview/icon_02.svg" alt="">
+                        </figure>
+                        <div class="step-title">
+                            <div class="one-step">
+                                <span>02</span>
+                                <h3>Buy Tickets</h3>
+                            </div>
+                            <div class="step-text">
+                                <p>Select train, class of service, and number of tickets</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <figure>
+                            <img src="https://www.russianrailways.com/static/newDesign/pages/main-page/img/overview/icon_03.svg" alt="">
+                        </figure>
+                        <div class="step-title">
+                            <div class="one-step">
+                                <span>03</span>
+                            <h3>Go to the Station</h3>
+                            </div>
+                            <div class="step-text">
+                                <p>Receive your train tickets and enjoy your trip. Make payment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Populat Desrination Section  -->
+
+        <section id="popular">
+            <div class="popular-container">
+                <div class="popular-title">
+                    <h1>Popular destinations</h1>
+                </div>
+                <div class="move">
+                    <img src="img/move.png" alt="">
+                </div>
+                <div class="grid-container">
+                    <div class="box" id="slider-1">
+                            <img class="destin-img" src="https://www.russianrailways.com/static/newDesign/pages/main-page/img/destinations/petersburg.webp" alt="">
+                        <h2>Moscow 
+                            <img src="/img/arrow-right-gray.png" alt="">
+                            St. Petersburg
+                        </h2>
+                        <button class="grid-btn">
+                            Explore
+                            <img src="img/arrow-right-white.png" alt="">
+                        </button>
+                    </div>
+                    <div class="box" id="slider-2">
+                            <img class="destin-img" src="https://www.russianrailways.com/static/newDesign/pages/main-page/img/destinations/irkutsk.webp" alt="">
+                        <h2>Moscow
+                            ><img src="/img/arrow-right-gray.png" alt="">
+                            Irkutsk
+                        </h2>
+                        <button class="grid-btn">
+                            Explore
+                            <img src="img/arrow-right-white.png" alt="">
+                        </button>
+                    </div>
+                    <div class="box" id="slider-3">
+                            <img class="destin-img" src="https://www.russianrailways.com/static/newDesign/pages/main-page/img/destinations/vladimir.webp" alt="">
+                        <h2>Moscow
+                            <img src="/img/arrow-right-gray.png" alt="">
+                            Vladimir
+                        </h2>
+                        <button class="grid-btn">
+                            Explore
+                            <img src="img/arrow-right-white.png" alt="">
+                        </button>
+                    </div>
+                    <div class="box" id="slider-4">
+                            <img class="destin-img" src="https://www.russianrailways.com/static/newDesign/pages/main-page/img/destinations/moscow.webp" alt="">
+                        <h2>St. Petersburg
+                            <img src="/img/arrow-right-gray.png" alt="">
+                            Moscow
+                        </h2>
+                        <button class="grid-btn">
+                            Explore
+                            <img src="img/arrow-right-white.png" alt="">
+                        </button>
+                    </div>
+                    <div class="box" id="slider-5">
+                            <img class="destin-img" src="https://www.russianrailways.com/static/newDesign/pages/main-page/img/destinations/ulan-bator.webp" alt="">
+                        <h2>Irkutsk
+                            <img src="/img/arrow-right-gray.png" alt="">
+                            Ulan-Bator
+                        </h2>
+                        <button class="grid-btn">
+                            Explore
+                            <img src="img/arrow-right-white.png" alt="">
+                        </button>
+                    </div>
+                    <div class="box" id="slider-6">
+                            <img class="destin-img" src="https://www.russianrailways.com/static/newDesign/pages/main-page/img/destinations/kazan.webp" alt="">
+                        <h2>Moscow
+                            <img src="/img/arrow-right-gray.png" alt="">
+                            Kazan
+                        </h2> 
+                        <button class="grid-btn">
+                            Explore
+                            <img src="img/arrow-right-white.png" alt="">
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Slider -->
+
+                <div class="dots"></div>
+            </div>
+        </section>
+
+        <!-- Trains Section -->
+
+        <section id="trains">
+            <div class="trains-container">
+                <h1>Popular trains in Russia</h1>
+                <div class="train-box">
+                    <div class="train-details">
+                        <img src="https://www.russianrailways.com/static/newDesign/pages/main-page/img/trains/sapsan.webp" alt="">
+                        <div class="speed-time">
+                            <div class="speed">
+                                <img src="img/speed.png" alt="speed icon">
+                                <div class="speed-detail">
+                                    <p>Its speed goes up</p>
+                                    <p><span>250 </span>KM/H</p>
+                                </div>
+                            </div>
+                            <div class="time">
+                                <img src="img/time.png" alt="time icon">
+                                <div class="speed-detail">
+                                    <p>Moscow - St.Petersburg</p>
+                                    <p><span>4</span> HOURS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-content">
+                        <h3>Sapsan</h3>
+                        <p>Sapsan is a modern high-speed train of German quality constructed by Siemens in 2009. Over 10 Sapsan trains are regularly commuting between the two cities, from early in the morning to late in the evening. Usually there are 10 cars per train, offering different classes of service from economy to business. Recently, there has been a new 20-car Sapsan train where every type of car is doubled in quantity.</p>
+                        <div class="text-content-btn">
+                            <button class=" btn get-ticket">
+                                Get tickets
+                                <img src="img/arrow-right-white.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="devider"></div>
+                <div class="train-box-2">
+                    <div class="train-details-2">
+                        <img src="https://www.russianrailways.com/static/newDesign/pages/main-page/img/trains/allegro.webp" alt="Allegro" class="allegro-train">
+                        <div class="speed-time-2">
+                            <div class="speed-2">
+                                <img src="img/speed.png" alt="speed icon">
+                                <div class="speed-detail">
+                                    <p>Its speed goes up</p>
+                                    <p><span>220 </span>KM/H</p>
+                                </div>
+                            </div>
+                            <div class="time-2">
+                                <img src="img/time.png" alt="time icon">
+                                <div class="speed-detail">
+                                    <p>ST.Petersburg - Helsinki</p>
+                                    <p><span>3.5</span> HOURS</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-content">
+                        <h3>Allegro</h3>
+                        <p>Allegro connects main railway stations of Helsinki and Saint Petersburg and has a great advantage over travelling by plane. Both railway stations are centrally located which allows to avoid a long travel from the airport, lines at the luggage claim and customs. All formalities connected with border control are held right in the train which helps you to save time and makes the international trip more comfortable and easy.</p>
+                        <div class="text-content-btn">
+                            <button class=" btn get-ticket">
+                                Get tickets
+                                <img src="img/arrow-right-white.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Touristis Section -->
+
+        <section id="tourists">
+            <div class="tourists-container">
+                <h1>What Our Tourists Say</h1>
+                <div class="tourists-slider" id="tourists-slider">
+                    <div class="t-slider">
+                        <div class="left-quote">
+                            <i class="fa-solid fa-quote-left"></i>
+                        </div>
+                        <div id="quotation">
+                                <p id="author-comment">The booking system is a bit over complicated with all sorts of abbreviations that you cannot understand, but it is not too challenging to book, would be nice to have a small fare reduction for children under 16 or 14 years.</p>
+                            <div class="author-info">
+                                <p id="author-name">Helene Lloyd</p>
+                                <p id="author-origin">United Kingdom (UK)</p>
+                            </div>
+                        </div>
+                        <div class="right-quote">
+                            <i class="fa-solid fa-quote-right"></i>
+                        </div>
+                    </div>
+                    <div id="slider-content">
+                        <div class="arrows">
+                            <div class="arrow-left">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </div>
+                            <div class="arrow-right">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="t-dots"></div>
+                </div>
+
+                <div class="testimonals">
+                    <button class="test">
+                        All testimonals
+                        <img src="img/arrow-right-blue.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Faq Section -->
+
+        <section id="faq">
+            <div class="faq-container">
+                <h1>Frequently Asked Questions</h1>
+                <div class="quiestions-container">
+                    <div class="question-content">
+                        <div class="que">
+                            <p class="question">When can I buy a ticket?</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <p class="answer">Tickets for all domestic trains and all trains between Russia and Finland go on sale 90 days before the departure (for some popular trains between Moscow and Saint Petersburg – 120 days before the departure). Tickets for every international train except the routes between Russia and some of the CIS countries go on sale 60 days before the departure. The tickets for the exceptional routes between Russia and CIS countries, mentioned earlier (Ukraine, Moldova, and the former Soviet republics in Central Asia) are open for sale 45 days before the train's departure. Some Ukrainian and Moldovan trains' tickets are open to buying only 30 days before the departure. Although, our website allows you to pre-book tickets for any date you want, even before the tickets come online for sale.</p>
+                    </div>
+                    <div class="question-content">
+                        <div class="que">
+                            <p class="question">What is the payment method?</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <p class="answer">You can pay for your order online via Uniteller payment service. After confirming the booking, you will be redirected to the secure payment page of Uniteller, where you will be asked to enter the payment details. After payment is done, an electronic receipt with the order information will be e-mailed to the address specified in the payment form. The safety of Uniteller processing is verified by the certificate of the data security standard of the payment card industry PCI DSS. Reliability of the service is ensured by intellectual fraud monitoring system and by using 3D Secure, a modern security technology for Internet payments. The details of your card are entered on a special secure payment page. The information is transferred to the processing company Uniteller using TLS encryption technology, then forwarded through secure banking channels having the highest level of reliability. Uniteller does not communicate your card data to the store and other third parties! If your card supports 3D Secure technology, for payment you will have to undergo an additional user authentication at the issuing bank (the bank that issued your card). To do this, you will be redirected to the page of the bank that issued the card. The verification method depends on the bank. Usually, it is an additional password that is sent as an SMS message, or a scratch-card with variable codes.</p>
+                    </div>
+                    <div class="question-content">
+                        <div class="que">
+                            <p class="question">Which boarding documents do I need to present when boarding?</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <p class="answer">Following are the presentable documents at the time of boarding: 1) Passport used to issue the ticket; 2) Paper ticket (in case the train does not have an e-sign).</p>
+                    </div>
+                    <div class="question-content">
+                        <div class="que">
+                            <p class="question">Do I have to print the e-ticket?</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <p class="answer">It is not necessary to print the e-ticket, although it is still recommended to err on the safer side. In case you don’t have a hard copy of the e-ticket, you can show your passport as a form of identification when boarding the train.</p>
+                    </div>
+                    <div class="question-content">
+                        <div class="que">
+                            <p class="question">Is the ticket fare cut down in case of children?</p>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <p class="answer">The child discounts are applied on rail tickets for children under 10 years (for some international trains - under 12 and under 17 years old, for commuter trains - 7 years old). One child under the age of 5 years (for some international trains - 4 years, for the trains between Finland and Russia - 6 years) may travel free of charge without a separate seat if accompanied by an adult.</p>
+                    </div>
+                </div>
+                <div class="faq-button">
+                    <button class=" btn get-ticket">
+                        All Questions
+                        <img src="img/arrow-right-white.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <!-- Footer -->
+
+    <footer>
+        <div class="footer-container">
+            <div class="arrow-app">
+                <a href="#header">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </a>
+            </div>
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-text">
+                        <img src="https://www.russianrailways.com/static/newDesign/carcass/img/logotype.svg" alt="Railway logo" class="rail-logo">
+                        <p>Tickets are provided by partners, including IM LLC. Ticket prices are inclusive of service charge. © RussianRailways.com, 2023</p>
+                    </div>
+                    <div class="pay-options">
+                        <h3>Payment Options</h3>
+                        <div class="cards">
+                            <div class="card">
+                                <img src="https://www.russianrailways.com/static/newDesign/carcass/img/payments/mastercard.png" alt="Master Card">
+                            </div>
+                            <div class="card">
+                                <img src="https://www.russianrailways.com/static/newDesign/carcass/img/payments/visa.png" alt="Visa">
+                            </div>
+                            <div class="card">
+                                <img src="https://www.russianrailways.com/static/newDesign/carcass/img/payments/mir.png" alt="MIR">
+                            </div>
+                            <div class="card">
+                                <img src="https://www.russianrailways.com/static/newDesign/carcass/img/payments/paypal.png" alt="PayPal">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <h2>INFO</h2>
+                        <li>
+                            <a href="#">
+                                <img src="img/arrow-right-gray.png" alt="Arrow">
+                                Search tickets
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/arrow-right-gray.png" alt="Arrow">
+                                Trains FAQ
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/arrow-right-gray.png" alt="Arrow">
+                                Tickets guide
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/arrow-right-gray.png" alt="Arrow">
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <h2>ROUTES</h2>
+                        <li>
+                            <a href="#">
+                                <img src="img/arrow-right-gray.png" alt="Arrow">
+                                Moscow - St. Petersburg
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/arrow-right-gray.png" alt="Arrow">
+                                St. Petersburg - Moscow
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/arrow-right-gray.png" alt="Arrow">
+                                Helsinki - St. Petersburg
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/arrow-right-gray.png" alt="Arrow">
+                                All routes
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <h2>TRAINS</h2>
+                        <li>
+                            <a href="#">
+                                <img src="img/arrow-right-gray.png" alt="Arrow">
+                                Sapsan
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/arrow-right-gray.png" alt="Arrow">
+                                Allegro
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/arrow-right-gray.png" alt="Arrow">
+                                All trains
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <h2>STATIONS</h2>
+                        <li>
+                            <a href="#">
+                                <img src="img/arrow-right-gray.png" alt="Arrow">
+                                Moscow stations
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/arrow-right-gray.png" alt="Arrow">
+                                St. Petersburg stations
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
